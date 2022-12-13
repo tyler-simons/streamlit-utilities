@@ -1,6 +1,8 @@
 import streamlit as st
 import re
 
+st.set_page_config(page_title="Header Converter")
+
 header_text = """GET /finder/api/v1/explorer-service/dining-availability/%7BC3E99747-0916-4D30-A94F-0505F5655C14%7D/dlr/19268344;entityType=restaurant/table-service/3/2022-10-10/?mealPeriod=80000712 HTTP/2
     Host: disneyland.disney.go.com
     User-Agent: Mozilla/2.0 (Macintosh; Intel Mac OS X 10.10; rv:154.0) Gecko/22200101 Firefox/106.0
